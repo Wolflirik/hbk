@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ru" class="js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HBK - Simple landing page.">
+  <meta name="author" content="Kirill Volkov">
+  <meta name="keywords" content="blog">
+  <link href="img/icon.png" sizes="192x192" rel="icon">
+  <title>HBK creative agency for forvard thinking brands.</title>
+  <meta name="description" content="Creative agency for forvard thinking brands.">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="bg">
+    <img class="bg__circle bg__circle--v3" style="--circle-top:0%;--circle-left:10%;" src="img/bg_1.svg" loading="lazy">
+    <img class="bg__circle bg__circle--v2" style="--circle-top:10%;--circle-left:0%;" src="img/bg_3.svg" loading="lazy">
+    <img class="bg__circle bg__circle--v1" style="--circle-top:5%;--circle-left:70%;" src="img/bg_2.svg" loading="lazy">
+  </div>
+  <div class="preloader">
+    <span data-title="HBK creative">HBK creative</span>
+  </div>
+  <header class="header">
+    <div class="container container__size-min">
+      <a href="#contact" class="header__logo scroll-to">
+        <img src="img/logo.png" alt="logo" loading="lazy">
+      </a>
+      <button class="header__button menu-button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="menu-button__icon">
+          <path class="menu-button__line menu-button__line--top" d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+          <path class="menu-button__line menu-button__line--middle" d="m 30,50 h 40" />
+          <path class="menu-button__line menu-button__line--bottom" d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+        </svg>
+      </button>
+      <nav class="header__nav">
+        <a href="#main" class="header__nav-item scroll-to" data-title="Home">Home</a>
+        <a href="#work" class="header__nav-item scroll-to" data-title="Work">Work</a>
+        <a href="#clients" class="header__nav-item scroll-to" data-title="Сlients">Сlients</a>
+        <a href="#calculate" class="header__nav-item scroll-to" data-title="Calculate">Calculate</a>
+        <a href="#contact" class="header__nav-item scroll-to" data-title="Contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container container__size-min">
+    <div class="studio-info">
+      <span>HBK</span><p>Creative agency for forvard thinking brands.</p>
+    </div>
+  </div>
+  <section id="main" class="slider">
+    <h2 class="slider__item">With Knowledge, passion, heart & soul</h2>
+    <h2 class="slider__item">Good work and worthy payment</h2>
+    <h2 class="slider__item">The result is above all in our business</h2>
+  </section>
+  <div id="work" class="container container__size-max fill">
+    <section class="grid">
+      <div class="grid__item grid__item-main">
+        <img class="grid__item-video" src="img/animation_2.gif" loading="lazy">
+        <img class="grid__item-image" src="img/grid_item-1.jpg" alt="" loading="lazy">
+      </div>
+      <div class="grid__item__inner grid__item-main">
+        <div class="grid__item grid__item_size-max">
+          <img class="grid__item-image" src="img/grid_item-2.jpg" alt="" loading="lazy">
+          <div class="grid__item-description ctx-1">
+            <span class="grid__item-category">Illustration</span>
+            <h3 class="grid__item-title">Beyond</h3>
+          </div>
+        </div>
+        <div class="grid__item">
+          <img class="grid__item-image" src="img/grid_item-3.jpg" alt="" loading="lazy">
+          <div class="grid__item-description ctx-2">
+            <span class="grid__item-category">Branding</span>
+            <h3 class="grid__item-title">Bix consulting</h3>
+          </div>
+        </div>
+        <div class="grid__item">
+          <img class="grid__item-video" src="img/animation_1.gif" loading="lazy">
+          <img class="grid__item-image" src="img/grid_item-4.jpg" alt="" loading="lazy">
+        </div>
+      </div>
+    </section>
+    <section id="clients" class="clients">
+      <h2>Our Сlients</h2>
+      <div class="clients__target">
+        <button type="button" class="button button-sort" data-filter="all">All</button>
+        <button type="button" class="button button-sort" data-filter=".print">Print</button>
+        <button type="button" class="button button-sort" data-filter=".illustration">Illustration</button>
+        <button type="button" class="button button-sort" data-filter=".games">Games</button>
+        <button type="button" class="button button-sort" data-filter=".motion">Motion</button>
+        <button type="button" class="button button-sort" data-filter=".web">Web</button>
+      </div>
+      <div class="clients__container">
+        <div class="mix clients__container-item print">
+          <img src="img/qap.svg" alt="qap" loading="lazy">
+          <span class="clients__container-title">QAP</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item motion">
+          <img src="img/rally-s.svg" alt="rally s" loading="lazy">
+          <span class="clients__container-title">Rally's</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item games">
+          <img src="img/zdf-4.svg" alt="ZDF" loading="lazy">
+          <span class="clients__container-title">ZDF</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item illustration">
+          <img src="img/franklin-computer-1.svg" alt="franklin computer" loading="lazy">
+          <span class="clients__container-title">Franklin C</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item motion">
+          <img src="img/esporte-clube-brasil-de-arroio-dos-ratos-rs.svg" alt="esporte clube brasil de arroio dos ratos rs" loading="lazy">
+          <span class="clients__container-title">Esporte</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item web">
+          <img src="img/escuver.svg" alt="escuver" loading="lazy">
+          <span class="clients__container-title">Escuver</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item illustration">
+          <img src="img/72-dpi.svg" alt="72 dpi" loading="lazy">
+          <span class="clients__container-title">72 dpi</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item games">
+          <img src="img/burdines.svg" alt="burdines" loading="lazy">
+          <span class="clients__container-title">Burdines</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item web">
+          <img src="img/enkei-1.svg" alt="enkei" loading="lazy">
+          <span class="clients__container-title">Enki</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item web">
+          <img src="img/cem-2.svg" alt="CEM" loading="lazy">
+          <span class="clients__container-title">CEM</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item illustration">
+          <img src="img/frontier-airlines-1.svg" alt="frontier airlines" loading="lazy">
+          <span class="clients__container-title">Frontier</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item web">
+          <img src="img/gerber-systems-1.svg" alt="Gerber systems" loading="lazy">
+          <span class="clients__container-title">Gerber systems</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item print">
+          <img src="img/orbit-studio.svg" alt="Orbit studio" loading="lazy">
+          <span class="clients__container-title">Orbit studio</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item illustration">
+          <img src="img/isenbeck.svg" alt="Isenbeck" loading="lazy">
+          <span class="clients__container-title">Isenbeck</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item print">
+          <img src="img/veramark-technologies.svg" alt="Veramark technologies" loading="lazy">
+          <span class="clients__container-title">Veramark</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item print">
+          <img src="img/global-trac.svg" alt="Global trac" loading="lazy">
+          <span class="clients__container-title">Global trac</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item games">
+          <img src="img/pandora-logo.svg" alt="Pandora" loading="lazy">
+          <span class="clients__container-title">Pandora</span>
+          <a href="">Details</a>
+        </div>
+        <div class="mix clients__container-item motion">
+          <img src="img/dominick.svg" alt="Dominick" loading="lazy">
+          <span class="clients__container-title">Dominick</span>
+          <a href="">Details</a>
+        </div>
+      </div>
+    </section>
+    <section class="grid">
+      <div class="grid__item">
+        <img class="grid__item-image" src="img/grid_item-6.jpg" alt="" loading="lazy">
+        <div class="grid__item-description ctx-3">
+          <span class="grid__item-category">Branding</span>
+          <h3 class="grid__item-title">Bix consulting</h3>
+        </div>
+      </div>
+      <div class="grid__item">
+        <img class="grid__item-image" src="img/grid_item-5.jpg" alt="" loading="lazy">
+        <div class="grid__item-description ctx-4">
+          <span class="grid__item-category">Illustration</span>
+          <h2 class="grid__item-title">Sans agency</h2>
+        </div>
+      </div>
+    </section>
+    <section id="calculate" class="calculate">
+      <img src="img/grid_item-7.png" alt="calculate" class="calculate__image" loading="lazy">
+      <div class="calculate__content">
+        <h2 class="calculate__title">Calculate the cost of work</h2>
+        <p class="calculate__text">
+          The cost of the work will depend on the time, complexity and type of work.
+        </p>
+
+        <form method="post" class="calculate-form">
+          <label for="hours" class="calculate__label" data-selected="(selected: 14)">Number of hours</label>
+          <input type="range" name="hours" min="1" max="200" value="14" id="hours" class="calculate__range">
+          <div class="grid grid--form">
+            <div class="grid__item">
+              <label for="hours" class="calculate__label">Type of work</label>
+              <select name="type" id="type" class="calculate__select">
+                <option value="3" selected>Print</option>
+                <option value="6">Illustration</option>
+                <option value="8">Games</option>
+                <option value="7">Motion</option>
+                <option value="12">Web</option>
+              </select>
+            </div>
+            <div class="grid__item">
+              <label class="calculate__label">Сonsultation</label>
+              <label class="calculate__radio"><input type="radio" name="сonsultation" value="50" class="calculate__radio-input"><span class="calculate__radio-value">Yes</span></label>
+              <label class="calculate__radio"><input type="radio" name="сonsultation" value="0"  class="calculate__radio-input" checked><span class="calculate__radio-value">No</span></label>
+            </div>
+          </div>
+
+          <div class="calculate__print-size">
+            <label for="print_size" class="calculate__label">Print size</label>
+            <select name="print_size" id="print_size" class="calculate__select">
+              <option value="25" selected>Small</option>
+              <option value="32">Middle</option>
+              <option value="40">Large</option>
+            </select>
+          </div>
+
+          <span class="calculate__total">Total: <b class="calculate__total-price">0</b><b>$</b></span>
+          <button class="button calculate__button"><span class="text">Send request</span><span class="point"></span></button>
+        </form>
+
+        <p class="calculate__text">
+          1 hour for Print = <b>3$</b><br>
+          1 hour for Illustration = <b>6$</b><br>
+          1 hour for Games = <b>8$</b><br>
+          1 hour for Motion = <b>7$</b><br>
+          1 hour for Web = <b>12$</b><br>
+          Сonsultation = <b>50$</b><br>
+          If the type of job is illustration or print, you must select the print size<br>
+          Small = <b>25$</b><br>
+          Middle = <b>32$</b><br>
+          Large = <b>40$</b>
+        </p>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="footer__top grid container container__size-min">
+      <div class="grid__item__inner">
+        <div class="grid__item">
+          <h2 class="grid__box-heading red">Agency</h2>
+          <div class="grid__box-links">
+            <a href="#" class="grid__link">Our Team</a>
+            <a href="#" class="grid__link">Awards</a>
+            <a href="#" class="grid__link">Stories</a>
+            <a href="#" class="grid__link">Leadership</a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <h2 class="grid__box-heading yellow">Work</h2>
+          <div class="grid__box-links">
+            <a href="#" class="grid__link">Branding</a>
+            <a href="#" class="grid__link">Illustration</a>
+            <a href="#" class="grid__link">Digital</a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <h2 class="grid__box-heading green">Services</h2>
+          <div class="grid__box-links">
+            <a href="#" class="grid__link">Design</a>
+            <a href="#" class="grid__link">Strategy</a>
+            <a href="#" class="grid__link">Content</a>
+          </div>
+        </div>
+        <div class="grid__item">
+          <h2 class="grid__box-heading blue">Contact</h2>
+          <div class="grid__box-links">
+            <a href="#" class="grid__link">Become a Client</a>
+            <a href="#" class="grid__link">Find Us</a>
+            <a href="#" class="grid__link">Careers</a>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="grid__item grid__item-padding">
+        <h2 class="grid__box-heading">We are driven to deliver results for your business</h2>
+        <form action="post" class="form">
+          <input type="text" class="form-input" name="name" value="Name" onfocus="this.value == 'Name'?this.value = '':this.value == this.value;" onblur="this.value == ''?this.value = 'Name':this.value == this.value;" autocomplete="off" minlength="2">
+          <input type="text" class="form-input" name="email" value="Email" onfocus="this.value == 'Email'?this.value = '':this.value == this.value;" onblur="this.value == ''?this.value = 'Email':this.value == this.value;" autocomplete="off" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+          <button class="subscribe__button" type="submit" data-title="Send">Send</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container container__size-min">
+        <div class="description">
+          <div class="studio-info">
+            <span>HBK</span><p>Creative agency for forvard thinking brands.</p>
+          </div>
+          <div class="creators-info">
+            <b>Developers:</b>
+            <a href="#" class="creators-info__link">Volkov K.</a> /
+            <a href="#" class="creators-info__link">Baranovsky A.</a> /
+            <a href="#" class="creators-info__link">Kalugin A.</a>
+          </div>
+        </div>
+        <div class="copyright">
+          <span>© 2021 HBK. All Rights Reserved.</span>
+          <div class="social">
+            <a href="#"><img src="img/facebook.svg" alt="facebook" loading="lazy"></a>
+            <a href="#"><img src="img/codepen.svg" alt="codepen" loading="lazy"></a>
+            <a href="#"><img src="img/twitter.svg" alt="twitter" loading="lazy"></a>
+            <a href="#"><img src="img/pinterest.svg" alt="pinterest" loading="lazy"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script  type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+  <script  type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <script  type="text/javascript" src="js/mixitup.min.js"></script>
+  <script  type="text/javascript" src="js/custom-select.min.js"></script>
+  <script  type="text/javascript" src="js/common.min.js" defer></script>
+  <!--[if lt IE 9]>
+  <script type="text/javascript" src="js/respond.min.js"></script>
+  <script type="text/javascript" src="js/html5shiv-printshiv.min.js"></script>
+  <script type="text/javascript" src="js/html5shiv.min.js"></script>
+  <script type="text/javascript" src="js/es5-shim.min.js"></script>
+  <![endif]-->
+</body>
+</html>
